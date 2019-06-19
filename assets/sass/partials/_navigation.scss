@@ -1,0 +1,23 @@
+.navbar-custom{
+  background-color: $green;
+
+  .navbar-nav {
+    font-size: 26px;
+
+    .nav-item {
+      margin-right: 30px;
+      .nav-link{
+        color: white;
+      }
+    }
+
+    .nav-link:hover{
+      text-decoration: underline;
+    }
+
+    > .active > .nav-link{
+      text-decoration: underline;
+
+    }
+  }
+}
